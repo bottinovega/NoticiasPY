@@ -1,4 +1,4 @@
-fetch("http://localhost/noticias/wp-json/wp/v2/posts?categories=1&per_page=1&_embed")
+fetch("http://localhost/noticias/wp-json/wp/v2/posts?categories=3&per_page=1&_embed")
   .then(res => res.json())
   .then(data => {
     const post = data[0];
